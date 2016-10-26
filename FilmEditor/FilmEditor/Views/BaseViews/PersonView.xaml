@@ -1,0 +1,46 @@
+﻿<Window x:Class="FilmEditor.Views.BaseViews.PersonView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FilmEditor.Views.BaseViews"
+        mc:Ignorable="d"
+        FontFamily="Times New Roman"
+        FontWeight="Bold"
+        FontSize="14"
+        BorderBrush="Navy"
+        BorderThickness="4"
+        Title="PersonView" Height="200" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <WrapPanel Orientation="Horizontal">
+            <Button Content="Close" Click="Close"/>
+        </WrapPanel>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3.3*"/>
+                <RowDefinition Height="3.3*"/>
+                <RowDefinition Height="3.4*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="First Name"/>
+            <TextBox x:Name="firstNameTextBox" Grid.Column="1" Text="{Binding FirstMidName, Mode=TwoWay}"/>
+            <Label Content="Last Name" Grid.Row="1"/>
+            <TextBox x:Name="lastNameTextBox" Grid.Row="1" Grid.Column="1" Text="{Binding LastName, Mode=TwoWay}"/>
+            <Label Content="Birthdate" Grid.Row="2"/>
+            <TextBox x:Name="birthdateTextBox" Grid.Row="2" Grid.Column="1" Text="{Binding ShortBirthdate}"/>
+        </Grid>
+        <DockPanel Grid.Row="2" LastChildFill="True">
+            <Button Content="Accept" Click="DoAccept" DockPanel.Dock="Left"/>
+            <Button Content="Reject" Click="DoReject" DockPanel.Dock="Right"/>
+            <TextBlock/>
+        </DockPanel>
+    </Grid>
+</Window>

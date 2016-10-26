@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmEditor", "FilmEditor\FilmEditor.csproj", "{BCBF7D5C-A8C5-4768-9252-E231C988A0E7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ABE82BB8-02FE-4169-B685-4437C171030B} = {ABE82BB8-02FE-4169-B685-4437C171030B}
+		{1B3AF5EA-F91C-49AC-A800-2CD1E6B53A9F} = {1B3AF5EA-F91C-49AC-A800-2CD1E6B53A9F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmEditor.Core", "FilmEditor.Core\FilmEditor.Core.csproj", "{1B3AF5EA-F91C-49AC-A800-2CD1E6B53A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmEditor.Infrastructure", "FilmEditor.Infrastructure\FilmEditor.Infrastructure.csproj", "{ABE82BB8-02FE-4169-B685-4437C171030B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B3AF5EA-F91C-49AC-A800-2CD1E6B53A9F} = {1B3AF5EA-F91C-49AC-A800-2CD1E6B53A9F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCBF7D5C-A8C5-4768-9252-E231C988A0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBF7D5C-A8C5-4768-9252-E231C988A0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBF7D5C-A8C5-4768-9252-E231C988A0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBF7D5C-A8C5-4768-9252-E231C988A0E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B3AF5EA-F91C-49AC-A800-2CD1E6B53A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3AF5EA-F91C-49AC-A800-2CD1E6B53A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3AF5EA-F91C-49AC-A800-2CD1E6B53A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3AF5EA-F91C-49AC-A800-2CD1E6B53A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE82BB8-02FE-4169-B685-4437C171030B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE82BB8-02FE-4169-B685-4437C171030B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE82BB8-02FE-4169-B685-4437C171030B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE82BB8-02FE-4169-B685-4437C171030B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\bin\Debug\FilmEditor.Infrastructure.dll.config
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\bin\Debug\FilmEditor.Infrastructure.dll
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\bin\Debug\FilmEditor.Infrastructure.pdb
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\bin\Debug\EntityFramework.dll
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\bin\Debug\FilmEditor.Core.dll
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\bin\Debug\EntityFramework.xml
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\bin\Debug\FilmEditor.Core.pdb
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\obj\Debug\FilmEditor.Infrastructure.csprojResolveAssemblyReference.cache
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\obj\Debug\FilmEditor.Infrastructure.dll
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\obj\Debug\FilmEditor.Infrastructure.pdb
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\obj\Debug\FilmEditor.Infrastructure.Migrations.Initial.resources
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Infrastructure\obj\Debug\FilmEditor.Infrastructure.csproj.GenerateResource.Cache

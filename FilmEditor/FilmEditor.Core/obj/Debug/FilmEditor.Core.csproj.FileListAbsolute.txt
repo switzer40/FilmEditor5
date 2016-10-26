@@ -1,0 +1,5 @@
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Core\bin\Debug\FilmEditor.Core.dll
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Core\bin\Debug\FilmEditor.Core.pdb
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Core\obj\Debug\FilmEditor.Core.dll
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Core\obj\Debug\FilmEditor.Core.pdb
+G:\GitHub\FilmEditor5\FilmEditor\FilmEditor.Core\obj\Debug\FilmEditor.Core.csprojResolveAssemblyReference.cache

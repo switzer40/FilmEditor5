@@ -1,0 +1,34 @@
+﻿<Window x:Class="FilmEditor.Views.UtilityViews.StringDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FilmEditor.Views.UtilityViews"
+        mc:Ignorable="d"
+        FontFamily="Times New Roman"
+        FontWeight="Bold"
+        FontSize="14"
+        BorderBrush="Navy"
+        BorderThickness="4"
+        Title="StringDialog" Height="140" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!--WhatText-->
+            <RowDefinition Height="*"/>
+            <!--YourString-->
+            <RowDefinition Height="Auto"/>
+            <!--Accept/Reject-->
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="whatTextTextBlock" Text="{Binding WhatText}"/>
+        <DockPanel Grid.Row="1" LastChildFill="True">
+            <Label Content="Your String" DockPanel.Dock="Left"/>
+            <TextBox x:Name="yourStringTextBox" Text="{Binding YourString}" DockPanel.Dock="Right"/>
+        </DockPanel>
+        <DockPanel Grid.Row="2" LastChildFill="True">
+            <Button Content="Accept" Click="DoAccept" DockPanel.Dock="Left"/>
+            <Button Content="Reject" Click="DoReject" DockPanel.Dock="Right"/>
+            <TextBlock/>
+        </DockPanel>
+    </Grid>
+</Window>
